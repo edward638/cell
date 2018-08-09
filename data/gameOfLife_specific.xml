@@ -11,7 +11,7 @@
   </dimensions>
   <parameter_list>
     <parameters id="edgenumber">
-      <value>3</value>
+      <value>6</value>
     </parameters>
   </parameter_list>
   <cell_on_list isOn="true">

@@ -5,6 +5,7 @@ import java.util.Map;
 
 import cells.Cell;
 import javafx.scene.paint.Color;
+import shapes.HexagonNeighborFinder;
 import shapes.NeighborFinder;
 import shapes.SquareNeighborFinder;
 import xml.WriterException;

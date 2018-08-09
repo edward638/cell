@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<fire>
+  <title>Spreading of Fire</title>
+  <authors>
+    <name>Edward Zhuang</name>
+    <name>Julia Long</name>
+    <name>Jeffrey Li</name>
+  </authors>
+  <dimensions>
+    <xsize>20</xsize>
+    <ysize>20</ysize>
+  </dimensions>
+  <parameter_list>
+    <parameters id="probability">
+      <value>.69</value>
+    </parameters>
+  </parameter_list>
+  <cell_on_list isOn="true">
+    <type id="burning">
+      <cell>
+        <ycoord>2</ycoord>
+        <xcoord>3</xcoord>
+      </cell>
+    </type>
+    <type id="tree">
+      <cell>
+        <ycoord>11</ycoord>
+        <xcoord>10</xcoord>
+      </cell>
+      <cell>
+        <ycoord>10</ycoord>
+        <xcoord>10</xcoord>
+      </cell>
+    </type>
+  </cell_on_list>
+</fire>
